@@ -1,0 +1,9 @@
+.DS_Store
+build/
+downloads/
+sstate-cache/
+__pycache__/
+*.pyc
+# colcon
+/log/
+/install/

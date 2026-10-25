@@ -1,0 +1,9 @@
+Raspberry Pi 5 + ROS 2 Jazzy build environment ready.
+
+Build the image:
+
+    bitbake ros2-counter-image
+
+Quick test of the counter_demo recipe only:
+
+    bitbake counter-demo
