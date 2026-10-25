@@ -86,6 +86,6 @@ Boot the Pi with Ethernet attached, find its IP and log in (`root`, no password)
 
 ```bash
 ssh root@<pi-ip>
-source /opt/ros/jazzy/setup.sh
+# the ROS 2 environment is loaded by /etc/profile.d/ros2.sh (recipe ros2-env)
 ros2 launch counter_demo counter.launch.py
 ```

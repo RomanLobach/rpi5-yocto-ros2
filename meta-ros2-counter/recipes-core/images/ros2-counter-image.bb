@@ -11,6 +11,7 @@ IMAGE_INSTALL:append = " \
     demo-nodes-py \
     launch-ros \
     rclpy \
+    ros2-env \
     ros2cli-common-extensions \
     ros2launch \
     std-msgs \
